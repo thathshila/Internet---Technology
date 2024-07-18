@@ -1,11 +1,355 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title><Title></title>
+    <meta name="description" content="this is the description">
+    <meta name="keyword" content="java,html,css,js,">
+    <meta name="author" content="ijse">
+    <meta name="viewport" content="width = device-width, initial-scale= 1.0">
+    <link rel=" icon" type="image /x-icon " href="assets/logo.jpg">
+    <title> Home - IJSE </title>
+
 </head>
 <body>
 <h1>IJSE - Institute of Software Engineering</h1>
-<h2>#1 - Software Engineering  in Sri Lanka</h2>
+<h2>#1 Software Engineering Institute in Sri lanka </h2>
+<h3>ASHA</h3>
+<p>
+    hello
+</p>
+<pre> hello,
+    welcome.
+</pre>
+<pre>
+    <code>
+        function(){
+        console.log("hello");
+        }
+    </code>
+</pre>
+    <center> hello </center>
+<address> 111,rr,tt,Sri Lanka</address>
+<marquee> HI </marquee>
+<table border="1">
+         <thead>
+         <th>ID</th>
+         <th colspan="2"></th>
+         <th>name</th>
+         </thead>
+</table>
+<tbody>
+<tr>
+    <td>1</td>
+    <td rowspan="2">kamal</td>
+</tr>
+</tbody>
+
+
+<table>
+<table border="1">
+    <caption>Student Table</caption>
+    <thead>
+    <th>Id</th>
+    <th>Name</th>
+    <th colspan="2">Emails</th>
+    <th>Parent's Name</th>
+    </thead>
+<tbody>
+<tr>
+    <td>1</td>
+    <td>Kavindu</td>
+    <td>Kavindu@gamil.com</td>
+    <td>Kavindu2@gmail.com</td>
+    <td>Mr.Rathnayaka</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>Janith</td>
+    <td>Janith@gamil.com</td>
+    <td>Janith2@gmail.com</td>
+    <td>Mr.Sarath</td>
+</tr>
+
+<tr>
+    <td>3</td>
+<td>Sheron</td>
+<td colspan="2"> Sheron@gmail </td>
+<td rowspan="2">Mr.Kamal</td>
+</tr>
+
+<tr>
+    <td>4</td>
+    <td>Brian</td>
+    <td>Brain@gmail.com</td>
+    <td>Brain2@gmail.com</td>
+</tr>
+<tr>
+    <td>5</td>
+    <td>Vishwa</td>
+    <td>Vishwa@gmail.com</td>
+    <td>Vishwa2@gmail.com</td>
+    <td>Mr.Nihal</td>
+</tr>
+<tr>
+    <td>6</td>
+    <td>Saroja</td>
+    <td colspan="2" rowspan="2">Saroja@gmail.com</td>
+    <td rowspan="2">Mr.Nelsan</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td>Sarojani</td>
+</tr>
+</tbody>
+</table>
+</table>
+
+<img src = "assets/images/large.jpg" title="apple Iphone" alt="IPHONE 14 PRO" width="400">
+
+<br>
+
+<picture>
+    <source media="(min-width: 1000px)" srcset="assets/images/large.jpg">
+    <source media="(min-width=800px)" srcset="assets/images/medium.jpg">
+    <img src="assets/images/small.jpg" title="iphone small" alt="iphone small 14">
+</picture>
+
+<br>
+
+<video
+
+       muted
+       autoplay
+       controls
+       loop
+       poster="assets/images/car.jpeg"
+        width="700"
+        height="400">
+
+    <source src="assets/videos/car.mp4" type="video/mp4">
+    <source src="assets/videos/car.webm" type="video/webm">
+
+    <track  label="english" kind="subtitles" src="assets/videos/subtitles/sample.vtt" srclang="en">
+    <track  label="arabic" kind="subtitles" src="assets/videos/subtitles/arabic.vtt" srclang="ar">
+
+</video>
+
+
+<audio controls>
+    <source src="assets/audios/audio_file1.mp3" type="audio/mp3">
+</audio>
 </body>
+
+<body>
+<form>
+    <input type="text">
+    <br>
+    <input type="password">
+    <br>
+    <input type="email">
+    <br>
+    <input type="button">
+    <br>
+    <input type="button" value="Click">
+    <br>
+    <input type="checkbox">
+    <br>
+    <input type="radio">
+    <br>
+    <input type="color">
+    <br>
+    <input type="date" min="2001-01-01" max="2024-07-14">
+    <br>
+    <input type="datetime-local">
+    <br>
+    <input type="month">
+    <input type="week">
+    <input type="time">
+    <br>
+    <input type="number">
+    <br>
+    <input type="search">
+    <br>
+    <input type="url">
+    <br>
+    <input type="tel">
+    <br>
+    <input type="range">
+    <br>
+    <input type="file">
+    <br>
+    <input type="image" src="assets/images/small.jpg" title="image">
+    <br>
+    <input type="hidden">
+    <br>
+    <input type="button" value="button">
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+
+
+    <!-- LABEL -->
+   <!-- <br>
+    <br>
+    <label for="first name">first name </label> <br>
+    <input type="text" id="first name" placeholder="Enter your firstname">
+<br>
+    <label for="last name">last name </label> <br>
+    <input type="text" id="last name" placeholder="Enter your lastname">
+<br>
+    <textarea> </textarea>
+    <br>
+    <textarea
+    placeholder="Enter your message"
+    id="message"
+    rows="20"
+    cols="50"
+    ></textarea>
+
+    <br>
+    <label for="programme">programme </label>
+    <select id="programme">
+        <option value="">select your programme</option>
+        <option value="p1">Java SE</option>
+        <option value="p2">Java EE</option>
+        <option value="p3">GO</option>
+        <option value="p4">Perl</option>
+        <option value="p5">Spring boot</option>
+    </select>
+    -->
+</form>
+
+
+    <hr>
+
+<form action="test.html" method="post">
+
+    <h1>Student form</h1>
+    <label for="first name">first name </label> <br>
+    <input type="text" name="fname" id="first name" placeholder="Enter your firstname">
+    <br>
+    <label for="last name">last name </label> <br>
+    <input type="text" name="lname" id="last name" placeholder="Enter your lastname">
+    <br>
+    <br>
+    <textarea
+            name="message"
+            placeholder="Enter your message"
+            id="message"
+            rows="20"
+            cols="50"
+    ></textarea>
+
+    <br>
+    <label for="programme">programme </label>
+    <select id="programme" name="programme">
+        <optgroup label="frontend tech">
+        <option value="">select your programme</option>
+        <option value="p1">Java SE</option>
+        <option value="p2">Java EE</option>
+        <option value="p3">GO</option>
+        <option value="p4">Perl</option>
+        <option value="p5">Spring boot</option>
+        </optgroup>
+        <optgroup label="backend tech">
+            <option value="p6">JavaScript</option>
+            <option value="p7">HTML & CSS</option>
+            <option value="p8">Angular</option>
+            <option value="p9">ReactJS</option>
+        </optgroup>
+    </select>
+
+    <br>
+    <br>
+<!--
+    <label>Payment Type</label>
+    <br>
+    <input type="radio" name="payment type" id="onetime" value="one-time-pay">  <label for="onetime">One Time Payment </label>
+    <br>
+    <input type="radio"  name="payment type" id="monthly" value="monthly-pay">  <label for="monthly">Monthly Payment </label>
+
+-->
+    <br>
+    <fieldset>
+        <legend>Select Payment</legend>
+        <input type="radio" name="payment type" id="onetime" value="one-time-pay">  <label for="onetime">One Time Payment </label>
+        <br>
+        <input type="radio"  name="payment type" id="monthly" value="monthly-pay">  <label for="monthly">Monthly Payment </label>
+    </fieldset>
+
+
+    <br>
+    <br>
+    <input type="text" list="data">
+    <datalist id="data">
+        <option value="frontend developer">Frontend developer</option>
+        <option value="backend developer">Backend developer</option>
+        <option value="UI UX ">UI UX</option>
+    </datalist>
+    <!--
+    button
+    submit
+    reset
+    -->
+<br>
+    <br>
+    <button>Click</button>
+    <button type="button" >Click</button>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+<hr>
+
+<form oninput="result.value=parseInt(num1.value)+parseInt(num2.value)+parseInt(num3.value)">
+    <input type="number"  name="num1" id="num1">
+    <input type="number" name="num2" id="num2">
+    <input type="range" name="num3" id="num3">
+    <output name="result" for="num1 num2 num3">0</output>
+</form>
+<!--ordered list-->
+<ol type="I">
+    <li>Java</li>
+    <li>Python</li>
+    <li>Go</li>
+    <li>C++</li>
+</ol>
+<!--unordered list-->
+<ul type="disc">
+    <li>Java</li>
+    <li>Python</li>
+    <li>Go</li>
+    <li>C++</li>
+</ul>
+
+<!--description list-->
+<dl>
+    <dt>Asia</dt>       <!--description type-->
+    <dd>Sri Lanka</dd>      <!--description data-->
+    <dd>India</dd>
+    <dd>Japan</dd>
+    </dl>
+<br>
+
+<ol type="1">
+    <li>Java</li>
+    <li>Python</li>
+    <li>Go</li>
+    <li>C++</li>
+    <li>
+        Internet Technologies
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>
+            JS
+    <ul type="disc">
+        <li>Core JavaScript</li>
+        <li>JQuery</li>
+    </ul></ol>
+    </li>
+</ol>
+</body>
+
 </html>
+
